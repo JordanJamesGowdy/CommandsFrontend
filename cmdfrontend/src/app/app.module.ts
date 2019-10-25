@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { NpmcommandsComponent } from './npmcommands/npmcommands.component';
+import { DotnetcommandsComponent } from './dotnetcommands/dotnetcommands.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NpmcommandsComponent,
+    DotnetcommandsComponent
   ],
   imports: [
     BrowserModule,
