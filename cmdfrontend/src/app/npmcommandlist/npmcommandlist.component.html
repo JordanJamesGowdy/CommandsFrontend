@@ -1,0 +1,22 @@
+
+<table class="table table-hover">
+  <tr>
+   
+    <th>
+      Command
+    </th>
+    <th>
+      Platform
+    </th>
+    <th>
+      Function
+    </th>
+  </tr>
+  <tr *ngFor="let l of list.slice(0, 5);">
+    <td>{{l.theCommand}}</td>
+    <td>{{l.platform}}</td>
+    <td>{{l.function}}</td>
+    <td><i class="fas fa-trash"></i></td>
+  </tr>
+
+</table>
